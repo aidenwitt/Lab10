@@ -82,7 +82,14 @@ public class DrawFrame extends JFrame {
 		drawPanel.addShape(time);
 		drawPanel.addShape(soul);
 		
-		
+		c5.getDiameter();
+		o6.getDiameter1();
+		o6.getDiameter2();
+		Point test = new Point(10, 10);
+		test.getLocation();
+		o6.getLocation();
+		Square test2 = new Square(new Point(0, 0), 10, Color.CYAN, false);
+		drawPanel.addShape(test2);
 		
 		this.add(drawPanel);
 		setSize(800, 800);
